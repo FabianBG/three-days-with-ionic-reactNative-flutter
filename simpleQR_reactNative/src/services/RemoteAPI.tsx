@@ -8,7 +8,7 @@ interface IItem {
 }
 
 class RemoteAPI {
-    readonly APIURL = `https://up-company.dev/dev-gokit-base/api/v1/orders`;
+    readonly APIURL = `https://f120c00b.ngrok.io /dev-gokit-base/api/v1/orders`;
 
 
     async get() {

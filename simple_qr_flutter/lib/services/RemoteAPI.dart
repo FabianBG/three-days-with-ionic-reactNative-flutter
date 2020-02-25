@@ -58,7 +58,8 @@ abstract class IRemoteAPI {
 
 @injectable
 class RemoteAPI implements IRemoteAPI {
-  final String apiURL = 'https://up-company.dev/dev-gokit-base/api/v1/orders';
+  final String apiURL =
+      'https://f120c00b.ngrok.io/dev-gokit-base/api/v1/orders';
 
   @override
   Future<List<Item>> get() async {

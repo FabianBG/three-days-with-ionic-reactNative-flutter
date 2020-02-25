@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>NEW</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-input placeholder="Enter Input" [(ngModel)]="item.restaurant_id"></ion-input>
+  <ion-button expand="block" (click)="save()">SAVE</ion-button>
+</ion-content>

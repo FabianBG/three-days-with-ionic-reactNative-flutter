@@ -1,0 +1,9 @@
+{
+  "appId": "com.simpleQRIonic",
+  "appName": "simpleQRIonic",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "linuxAndroidStudioPath": "/home/mbastidas/Software/android-studio/bin/studio.sh",
+  "cordova": {}
+}

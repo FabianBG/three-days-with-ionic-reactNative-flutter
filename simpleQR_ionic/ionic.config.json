@@ -1,0 +1,8 @@
+{
+  "name": "simpleQRIonic",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
